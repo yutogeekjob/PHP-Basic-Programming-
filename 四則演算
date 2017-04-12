@@ -1,0 +1,14 @@
+<?php
+  function br(){
+    echo nl2br("\n");
+  }
+  $a =1;
+  const B =2;
+  echo $a+B;
+  br();
+  echo $a-B;
+  br();
+  echo $a*B;
+  br();
+  echo $a/B;
+?>
